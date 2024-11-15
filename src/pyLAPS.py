@@ -362,8 +362,7 @@ def parse_args():
 
     return args
 
-
-if __name__ == '__main__':
+def main():
     print(r"""                 __    ___    ____  _____
     ____  __  __/ /   /   |  / __ \/ ___/
    / __ \/ / / / /   / /| | / /_/ /\__ \   
@@ -406,3 +405,7 @@ if __name__ == '__main__':
         if args.debug:
             traceback.print_exc()
         print("[!]", str(e))
+
+
+if __name__ == '__main__':
+    main()
