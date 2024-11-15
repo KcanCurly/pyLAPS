@@ -23,7 +23,7 @@ setup(
     python_requires=">=3.9",
     entry_points={
         "console_scripts": [
-            "ldap2json=src.pyLAPS:main",
+            "pyLAPS=src.pyLAPS:main",
         ],
     },
 )
